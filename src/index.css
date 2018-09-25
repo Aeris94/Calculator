@@ -1,0 +1,10 @@
+body
+{
+  font-family: 'Myriad Pro','Myriad', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #645C5A;
+ 
+}

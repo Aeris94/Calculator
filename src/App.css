@@ -1,0 +1,128 @@
+html
+{
+  height: 100%;
+}
+
+#display
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 280px;
+  min-height: 60px;
+  background: #1B1D1B;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+#formula
+{
+  font-size: 0.8em;
+  color: #D57424;  
+  word-wrap: break-word; 
+}
+
+#output
+{
+  color: #CABAAD;
+  font-size: 1.2em;
+  text-align: right;
+}
+
+#calculator
+{
+  width: 300px;
+  min-height: 290px;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  border: 15px solid black;
+  border-radius: 7px;
+}
+
+#buttonPanel
+{
+  display: flex;
+  flex-direction: row;
+}
+
+#numberPanel, #operatorPanel
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 150px;
+}
+
+#advancedPanel
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#advancedPanel > button
+{
+   background: #C4A474;
+}
+
+button
+{
+  font-weight: 900;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+  background: #CABAAD;
+}
+
+button:focus
+{
+  outline: none;
+}
+
+button:hover
+{
+  border: 3px solid black;
+  border-radius: 4px;
+}
+
+#zero, #clear, #PI
+{
+  width: 100px;
+} 
+
+#equals
+{
+  width: 100px;
+}
+
+#operatorPanel > button
+{
+  background: #C4A474;
+}
+
+#operatorPanel > #clear
+{
+  background: #991A0F;
+}
+
+#operatorPanel > #delete
+{
+  background: #B07F56;
+}
+
+#operatorPanel > #equals
+{
+  background: #4D710A;
+}
+
+#footer
+{
+  margin-top: 10px;
+  text-align: center;
+  color: #D4C9B6;
+}
+
